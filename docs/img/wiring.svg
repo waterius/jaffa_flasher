@@ -4,12 +4,13 @@
     text { font: 14px Roboto, Helvetica, Arial, sans-serif; fill: #232323; }
     .h { font-weight: 700; font-size: 15px; }
     .s { font-size: 12px; fill: #6b6b6b; }
+    .i { font-style: italic; }
     .silk { font: 700 12px ui-monospace, Menlo, Consolas, monospace; fill: #ffffff; }
     .chip { font-size: 12px; font-weight: 700; fill: #1655F5; }
     .w { stroke: #1655F5; stroke-width: 2.5; fill: none; }
     .g { stroke: #232323; stroke-width: 2.5; fill: none; }
     .p { stroke: #F53410; stroke-width: 2.5; fill: none; stroke-dasharray: 6 4; }
-    .r { fill: #fff; stroke: #1655F5; stroke-width: 2; }
+    .r { fill: #fff; stroke: #1655F5; stroke-width: 2; stroke-dasharray: 4 3; }
     .box { fill: #F3F6FE; stroke: #1655F5; stroke-width: 2; }
     .pcb { fill: #1d1d1d; }
     .hole, .hole1 { fill: #9a9a9a; stroke: #d8d8d8; stroke-width: 2; }
@@ -39,6 +40,6 @@
   <rect class="box" x="620" y="10" width="150" height="300" rx="10" fill-opacity="0"/>
   <text class="h" x="695" y="330" text-anchor="middle">Jaffa Flasher</text>
   <text class="s" x="695" y="348" text-anchor="middle">ESP32-S3 Super Mini</text>
-  <text class="s" x="520" y="24" text-anchor="middle">резисторы 100–330 Ом</text>
+  <text class="s i" x="490" y="24" text-anchor="middle">резисторы 100–330 Ом — по желанию</text>
   <text class="s" x="458" y="132">если у платы нет питания</text>
 </svg>
