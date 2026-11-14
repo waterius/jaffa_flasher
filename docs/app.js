@@ -9,7 +9,7 @@ import { SPEEDS, DATA_BITS, PARITY, STOP_BITS, DEFAULT_UART, baudCommand, termin
 
 // Спонсор — одна ссылка для шапки и подвала (jaffa-flasher-page design §2).
 const SPONSOR_URL = 'https://waterius.ru/?utm_source=jaffa_flasher&utm_medium=web&utm_campaign=jaffa_flasher';
-const MAKE_URL = 'https://github.com/waterius/jaffa_flasher#сборка-и-заливка-программатора';
+const MAKE_URL = 'https://github.com/waterius/jaffa_flasher#1-прошить-esp32-s3';
 
 // Все надписи — здесь, чтобы позже добавить английский (design §11).
 const T = {
@@ -19,8 +19,8 @@ const T = {
   noSerial: 'Нужен Chrome или Edge на компьютере.',
   noSerialFile: 'Нужен Chrome или Edge на компьютере, а страница — открытая по ссылке https:// или с localhost, не из файла.',
   secMake: 'Как сделать программатор',
-  makeText: 'Нужны плата ESP32-S3 Super Mini и кабель USB. Прошивка программатора собирается в PlatformIO и заливается по USB самой платы, одной командой.',
-  makeLink: 'Инструкция: сборка и заливка программатора',
+  makeText: 'Нужны плата ESP32-S3 Super Mini и кабель USB. Прошивку программатора — один файл .bin из релиза — заливают в ESP32-S3 из браузера, через esptool-js.',
+  makeLink: 'Инструкция и файл прошивки программатора',
   secWiring: 'Подключение',
   wiringHint: 'Плата с PY32 питается от 3,0–3,6 В. Сигнальные провода — через резисторы 100–330 Ом. 3V3 программатора подключайте, только если у платы нет своего питания.',
   secFlash: 'Прошивка',
